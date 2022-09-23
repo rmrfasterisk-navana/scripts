@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "task-duration"
+name = "scripts"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "a bunch of scripts"
+authors = ["Sai Praneeth Reddy <sai@navanatech.in>"]
 readme = "README.md"
-packages = [{include = "task_duration"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
