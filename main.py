@@ -33,7 +33,7 @@ with open("sum_duration_group_task.csv", "w+") as f:
     writer.writerow(header)
 
     # Fetch a set of task IDs
-    task_id_cursor = cursor.execute("""
+    cursor.execute("""
             SELECT DISTINCT task_id
             FROM microtask_assignment
             """)
